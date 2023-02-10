@@ -1,0 +1,36 @@
+.App {
+  width: 100vw;
+}
+.movies-nav {
+  border-bottom: thin solid gray !important;
+  box-shadow: 0px 0px 8px 2px #000000 !important;
+}
+
+.details-screen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.first-row {
+  width: 100%;
+  /* padding: 20px 30px !important; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+  width: 30%;
+}
+
+.right-side {
+  width: 70%;
+}
+
+.comment-group {
+  height: 500px;
+  overflow-y: scroll;
+}
+
